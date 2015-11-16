@@ -1,0 +1,1071 @@
+[07-12-2014 09:25:33] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[07-12-2014 09:25:33] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:25:33] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QVlTcTNSREdzbUJMSkUtb3RUa0J0TS1qQlJkMVRDUXdGZjlSR2Z3ZGROWFd6MHVGVTl6dHlteWxPaFJTOkVHbkhEeERfcVJQZGFMZFp6OGlDcjhON19NekYtWUhQVGtqczZOS1lRdlFTQm5ncDRQVFRWV2tQWlJiTA==
+[07-12-2014 09:25:33] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[07-12-2014 09:25:33] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[07-12-2014 09:25:34] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:25:34] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[07-12-2014 09:25:34] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:25:34] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QVlTcTNSREdzbUJMSkUtb3RUa0J0TS1qQlJkMVRDUXdGZjlSR2Z3ZGROWFd6MHVGVTl6dHlteWxPaFJTOkVHbkhEeERfcVJQZGFMZFp6OGlDcjhON19NekYtWUhQVGtqczZOS1lRdlFTQm5ncDRQVFRWV2tQWlJiTA==
+[07-12-2014 09:25:34] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[07-12-2014 09:25:34] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[07-12-2014 09:25:35] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* email https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015--4zPx-Jd5wXjQOZI2UkxNcrXUI4pIploLcSSRrGMq4","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[07-12-2014 09:25:35] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[07-12-2014 09:25:35] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[07-12-2014 09:25:35] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:25:35] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015--4zPx-Jd5wXjQOZI2UkxNcrXUI4pIploLcSSRrGMq4
+[07-12-2014 09:25:35] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 456014180163328724
+[07-12-2014 09:25:35] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[07-12-2014 09:25:35] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:25:36] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[07-12-2014 09:25:36] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:25:36] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QVlTcTNSREdzbUJMSkUtb3RUa0J0TS1qQlJkMVRDUXdGZjlSR2Z3ZGROWFd6MHVGVTl6dHlteWxPaFJTOkVHbkhEeERfcVJQZGFMZFp6OGlDcjhON19NekYtWUhQVGtqczZOS1lRdlFTQm5ncDRQVFRWV2tQWlJiTA==
+[07-12-2014 09:25:36] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[07-12-2014 09:25:36] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[07-12-2014 09:25:36] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:25:36] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:25:37] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* email https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015wPql8dlJYV3DsOMqxS3xU4-p5kUjC2jxr71YlRryJ94","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[07-12-2014 09:25:37] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[07-12-2014 09:25:37] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[07-12-2014 09:25:37] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:25:37] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015wPql8dlJYV3DsOMqxS3xU4-p5kUjC2jxr71YlRryJ94
+[07-12-2014 09:25:37] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 4560141801633464492
+[07-12-2014 09:25:37] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[07-12-2014 09:25:37] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[07-12-2014 09:25:37] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:25:37] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QVlTcTNSREdzbUJMSkUtb3RUa0J0TS1qQlJkMVRDUXdGZjlSR2Z3ZGROWFd6MHVGVTl6dHlteWxPaFJTOkVHbkhEeERfcVJQZGFMZFp6OGlDcjhON19NekYtWUhQVGtqczZOS1lRdlFTQm5ncDRQVFRWV2tQWlJiTA==
+[07-12-2014 09:25:37] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[07-12-2014 09:25:37] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[07-12-2014 09:25:37] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-TL9W-Y92S-GMAP-BCH7","number":"0394","status":"DRAFT","merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-07 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-21 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[07-12-2014 09:25:37] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:25:38] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* email https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015uNSPtenDvrXKIfc-OAHPljY2eDVnkJYeBQdQhoJhliQ","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[07-12-2014 09:25:38] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[07-12-2014 09:25:38] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[07-12-2014 09:25:38] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:25:38] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015uNSPtenDvrXKIfc-OAHPljY2eDVnkJYeBQdQhoJhliQ
+[07-12-2014 09:25:38] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 4560141801633630912
+[07-12-2014 09:25:38] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[07-12-2014 09:25:38] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:25:38] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[07-12-2014 09:25:38] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:25:38] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QVlTcTNSREdzbUJMSkUtb3RUa0J0TS1qQlJkMVRDUXdGZjlSR2Z3ZGROWFd6MHVGVTl6dHlteWxPaFJTOkVHbkhEeERfcVJQZGFMZFp6OGlDcjhON19NekYtWUhQVGtqczZOS1lRdlFTQm5ncDRQVFRWV2tQWlJiTA==
+[07-12-2014 09:25:38] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[07-12-2014 09:25:38] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[07-12-2014 09:25:38] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:25:39] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-823B-8S5J-RT79-BW2W","number":"0395","status":"DRAFT","merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-07 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-21 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[07-12-2014 09:25:39] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:25:40] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* email https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015f9k9I1dBEx-it7pJYcjciv2B6hkr.nrfJ6lFhrKaAwc","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[07-12-2014 09:25:40] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[07-12-2014 09:25:40] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[07-12-2014 09:25:40] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:25:40] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015f9k9I1dBEx-it7pJYcjciv2B6hkr.nrfJ6lFhrKaAwc
+[07-12-2014 09:25:40] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 456014180163376824
+[07-12-2014 09:25:40] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[07-12-2014 09:25:40] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-VRHB-NPLA-YQ68-KKU4","number":"0396","status":"DRAFT","merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-07 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-21 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[07-12-2014 09:25:40] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:25:40] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* email https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015DwvGWOtFtIjaEZGcDrZT0x8yhuvzoKmDNX9WhPhAvBI","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[07-12-2014 09:25:40] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[07-12-2014 09:25:41] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[07-12-2014 09:25:41] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:25:41] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015DwvGWOtFtIjaEZGcDrZT0x8yhuvzoKmDNX9WhPhAvBI
+[07-12-2014 09:25:41] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 4560141801633843551
+[07-12-2014 09:25:41] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[07-12-2014 09:25:41] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:25:42] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-ZY7R-JL8W-C3E5-E9KF","number":"0397","status":"DRAFT","merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-07 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-21 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[07-12-2014 09:25:42] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-QCYR-MYWV-25ZL-5BSR","number":"0398","status":"DRAFT","merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-07 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-21 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[07-12-2014 09:25:50] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[07-12-2014 09:25:50] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:25:50] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QVlTcTNSREdzbUJMSkUtb3RUa0J0TS1qQlJkMVRDUXdGZjlSR2Z3ZGROWFd6MHVGVTl6dHlteWxPaFJTOkVHbkhEeERfcVJQZGFMZFp6OGlDcjhON19NekYtWUhQVGtqczZOS1lRdlFTQm5ncDRQVFRWV2tQWlJiTA==
+[07-12-2014 09:25:50] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[07-12-2014 09:25:50] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[07-12-2014 09:25:50] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:25:51] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* email https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015GF-S3O2-e-p0XsqGEXYz3duk0fM2RinR6LfeBp6Losk","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[07-12-2014 09:25:51] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[07-12-2014 09:25:51] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[07-12-2014 09:25:51] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:25:51] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015GF-S3O2-e-p0XsqGEXYz3duk0fM2RinR6LfeBp6Losk
+[07-12-2014 09:25:51] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 4560141801635043110
+[07-12-2014 09:25:51] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[07-12-2014 09:25:52] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:25:53] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-Q6R2-JTN3-RX6Y-SAKZ","number":"0399","status":"DRAFT","merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-07 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-21 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[07-12-2014 09:26:11] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[07-12-2014 09:26:11] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:26:11] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QVlTcTNSREdzbUJMSkUtb3RUa0J0TS1qQlJkMVRDUXdGZjlSR2Z3ZGROWFd6MHVGVTl6dHlteWxPaFJTOkVHbkhEeERfcVJQZGFMZFp6OGlDcjhON19NekYtWUhQVGtqczZOS1lRdlFTQm5ncDRQVFRWV2tQWlJiTA==
+[07-12-2014 09:26:11] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[07-12-2014 09:26:11] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[07-12-2014 09:26:11] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:26:13] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* email https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015FO.tUhsQriAS-0.LG9NewRsHpMHQUenCl8aTrCS2BM0","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[07-12-2014 09:26:13] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[07-12-2014 09:26:13] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[07-12-2014 09:26:13] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:26:13] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015FO.tUhsQriAS-0.LG9NewRsHpMHQUenCl8aTrCS2BM0
+[07-12-2014 09:26:13] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 4560141801637124429
+[07-12-2014 09:26:13] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[07-12-2014 09:26:13] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:26:14] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-3RRK-V2SR-PP8B-GY3Z","number":"0400","status":"DRAFT","merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-07 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-21 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[07-12-2014 09:26:14] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices/INV2-3RRK-V2SR-PP8B-GY3Z/send
+[07-12-2014 09:26:15] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[07-12-2014 09:26:15] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 09:26:15] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015FO.tUhsQriAS-0.LG9NewRsHpMHQUenCl8aTrCS2BM0
+[07-12-2014 09:26:15] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 4560141801637124429
+[07-12-2014 09:26:15] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[07-12-2014 09:26:15] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 09:26:17] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[07-12-2014 10:06:33] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[07-12-2014 10:06:33] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 10:06:33] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QVlTcTNSREdzbUJMSkUtb3RUa0J0TS1qQlJkMVRDUXdGZjlSR2Z3ZGROWFd6MHVGVTl6dHlteWxPaFJTOkVHbkhEeERfcVJQZGFMZFp6OGlDcjhON19NekYtWUhQVGtqczZOS1lRdlFTQm5ncDRQVFRWV2tQWlJiTA==
+[07-12-2014 10:06:33] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[07-12-2014 10:06:33] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[07-12-2014 10:06:40] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 10:06:42] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* email https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A0152KNLZVs9-4AyfGSwbGI5b8i6muJNeUyvjvkAdswSqvU","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[07-12-2014 10:06:42] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[07-12-2014 10:06:42] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[07-12-2014 10:06:42] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 10:06:42] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A0152KNLZVs9-4AyfGSwbGI5b8i6muJNeUyvjvkAdswSqvU
+[07-12-2014 10:06:42] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 4560141801879351753
+[07-12-2014 10:06:43] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[07-12-2014 10:06:43] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 10:11:06] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[07-12-2014 10:11:06] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 10:11:06] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QVlTcTNSREdzbUJMSkUtb3RUa0J0TS1qQlJkMVRDUXdGZjlSR2Z3ZGROWFd6MHVGVTl6dHlteWxPaFJTOkVHbkhEeERfcVJQZGFMZFp6OGlDcjhON19NekYtWUhQVGtqczZOS1lRdlFTQm5ncDRQVFRWV2tQWlJiTA==
+[07-12-2014 10:11:06] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[07-12-2014 10:11:06] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[07-12-2014 10:11:09] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 10:11:12] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* email https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015iN4OjgLqLJ6ty8As6d4s9OzmZVFyvJ6qjyJWbhPwNws","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[07-12-2014 10:11:12] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[07-12-2014 10:11:12] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[07-12-2014 10:11:12] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.3.8;bit=32;os=Windows_NT_6.1;machine=i586;curl=7.21.7)
+[07-12-2014 10:11:12] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015iN4OjgLqLJ6ty8As6d4s9OzmZVFyvJ6qjyJWbhPwNws
+[07-12-2014 10:11:12] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 4560141801906618121
+[07-12-2014 10:11:12] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[07-12-2014 10:11:14] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[07-12-2014 10:11:16] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-K7JB-BPTN-QG3K-M9Z9","number":"0401","status":"DRAFT","merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-07 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-21 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[08-12-2014 11:40:40] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 11:40:40] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 11:40:40] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QVlTcTNSREdzbUJMSkUtb3RUa0J0TS1qQlJkMVRDUXdGZjlSR2Z3ZGROWFd6MHVGVTl6dHlteWxPaFJTOkVHbkhEeERfcVJQZGFMZFp6OGlDcjhON19NekYtWUhQVGtqczZOS1lRdlFTQm5ncDRQVFRWV2tQWlJiTA==
+[08-12-2014 11:40:40] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 11:40:40] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 11:40:42] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 11:40:44] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* email https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015Dkvw4Huzb7BC1bmOAN1EF4CJIZ1RWDQEimggTrkgKzU","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 11:40:44] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 11:40:44] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 11:40:44] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 11:40:44] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015Dkvw4Huzb7BC1bmOAN1EF4CJIZ1RWDQEimggTrkgKzU
+[08-12-2014 11:40:44] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: MIKEY-THINK6000141807843962571
+[08-12-2014 11:40:44] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 11:40:45] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 11:40:47] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-VRKR-CDD6-QZHT-55Z4","number":"0409","status":"DRAFT","merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-22 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[08-12-2014 02:43:47] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 02:43:47] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:43:47] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QVlTcTNSREdzbUJMSkUtb3RUa0J0TS1qQlJkMVRDUXdGZjlSR2Z3ZGROWFd6MHVGVTl6dHlteWxPaFJTOkVHbkhEeERfcVJQZGFMZFp6OGlDcjhON19NekYtWUhQVGtqczZOS1lRdlFTQm5ncDRQVFRWV2tQWlJiTA==
+[08-12-2014 02:43:47] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 02:43:47] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 02:43:47] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:43:49] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* email https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015oY9Fb4mCaHYbylO4.OMqMNBm6GzBM-U8p1jdks7P-3Y","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 02:43:49] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 02:43:49] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 02:43:49] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:43:49] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015oY9Fb4mCaHYbylO4.OMqMNBm6GzBM-U8p1jdks7P-3Y
+[08-12-2014 02:43:49] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141807862725347
+[08-12-2014 02:43:49] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 02:43:50] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:43:51] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-9CWJ-8Q7Z-5MXZ-FDBU","number":"0410","status":"DRAFT","merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-22 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[08-12-2014 02:45:41] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 02:45:41] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:45:41] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QVlTcTNSREdzbUJMSkUtb3RUa0J0TS1qQlJkMVRDUXdGZjlSR2Z3ZGROWFd6MHVGVTl6dHlteWxPaFJTOkVHbkhEeERfcVJQZGFMZFp6OGlDcjhON19NekYtWUhQVGtqczZOS1lRdlFTQm5ncDRQVFRWV2tQWlJiTA==
+[08-12-2014 02:45:41] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 02:45:41] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 02:45:42] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:45:44] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* email https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A0155tGA6WHLgsN-.rhSzfKHX0Evvxx2.-untknWvPt50N8","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 02:45:44] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 02:45:44] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 02:45:44] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:45:44] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A0155tGA6WHLgsN-.rhSzfKHX0Evvxx2.-untknWvPt50N8
+[08-12-2014 02:45:44] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141807874146572
+[08-12-2014 02:45:44] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 02:45:44] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:45:46] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-Y2D9-UCGQ-CJY9-7KYM","number":"0411","status":"DRAFT","merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-22 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[08-12-2014 02:45:46] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices/INV2-Y2D9-UCGQ-CJY9-7KYM/send
+[08-12-2014 02:45:46] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 02:45:46] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:45:46] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A0155tGA6WHLgsN-.rhSzfKHX0Evvxx2.-untknWvPt50N8
+[08-12-2014 02:45:46] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141807874146572
+[08-12-2014 02:45:46] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-12-2014 02:45:46] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:45:48] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-12-2014 02:46:04] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 02:46:04] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:46:04] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QVlTcTNSREdzbUJMSkUtb3RUa0J0TS1qQlJkMVRDUXdGZjlSR2Z3ZGROWFd6MHVGVTl6dHlteWxPaFJTOkVHbkhEeERfcVJQZGFMZFp6OGlDcjhON19NekYtWUhQVGtqczZOS1lRdlFTQm5ncDRQVFRWV2tQWlJiTA==
+[08-12-2014 02:46:04] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 02:46:04] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 02:46:05] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:46:07] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* email https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015NrV4MrOQUyikmFfHKiKKDsWwhHMpxYUtPOrDjLNP9UM","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 02:46:07] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 02:46:07] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 02:46:07] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:46:07] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015NrV4MrOQUyikmFfHKiKKDsWwhHMpxYUtPOrDjLNP9UM
+[08-12-2014 02:46:07] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141807876423078
+[08-12-2014 02:46:07] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 02:46:08] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:46:09] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-UNKY-VVSV-7XVQ-5M3Y","number":"0412","status":"DRAFT","merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-22 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[08-12-2014 02:46:09] PayPal\Core\PPHttpConnection: INFO: GET https://api.sandbox.paypal.com/v1/invoicing/invoices/INV2-UNKY-VVSV-7XVQ-5M3Y
+[08-12-2014 02:46:09] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 02:46:09] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:46:09] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015NrV4MrOQUyikmFfHKiKKDsWwhHMpxYUtPOrDjLNP9UM
+[08-12-2014 02:46:09] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-12-2014 02:46:10] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:46:11] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-UNKY-VVSV-7XVQ-5M3Y","number":"0412","status":"DRAFT","merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-22 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"},"metadata":{"created_date":"2014-12-08 14:46:08 PST","payer_view_url":"https://www.sandbox.paypal.com/cgi_bin/webscr?cmd=_pay-inv&viewtype=altview&id=INV2-UNKY-VVSV-7XVQ-5M3Y"}}
+
+
+[08-12-2014 02:49:21] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 02:49:21] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:49:21] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 02:49:21] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 02:49:21] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 02:49:22] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:49:24] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015cX7RuU.v0O6QtykmftAXbbf96qfupOLu--0G0zVv8FM","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 02:49:24] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 02:49:24] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 02:49:24] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:49:24] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015cX7RuU.v0O6QtykmftAXbbf96qfupOLu--0G0zVv8FM
+[08-12-2014 02:49:24] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141807896164488
+[08-12-2014 02:49:24] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 02:49:24] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:49:25] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"AUTHORIZATION_ERROR","message":"Authorization error occurred.","debug_id":"ef3d8dc441d1a"}
+
+
+[08-12-2014 02:52:44] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 02:52:44] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:52:44] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 02:52:44] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 02:52:44] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 02:52:44] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:52:46] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015xxtPOgrpHbiFy3IkLUNQmga185Saqpq-O-QjKfm7XlA","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 02:52:46] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 02:52:46] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 02:52:46] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:52:46] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015xxtPOgrpHbiFy3IkLUNQmga185Saqpq-O-QjKfm7XlA
+[08-12-2014 02:52:46] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141807916456702
+[08-12-2014 02:52:46] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"jaypatel512-facilitator@hotmail.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 02:52:46] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:52:48] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"AUTHORIZATION_ERROR","message":"Authorization error occurred.","debug_id":"549d435e9769d"}
+
+
+[08-12-2014 02:53:41] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 02:53:41] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:53:41] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 02:53:41] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 02:53:41] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 02:53:42] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:53:43] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015ly3NNy9a27GhfLHHz-VQq1If6hceLVPcjGExw24aKT8","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 02:53:43] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 02:53:43] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 02:53:43] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:53:43] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015ly3NNy9a27GhfLHHz-VQq1If6hceLVPcjGExw24aKT8
+[08-12-2014 02:53:43] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141807922163304
+[08-12-2014 02:53:43] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 02:53:44] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:53:45] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-RJ8A-XZLJ-H4A5-F5AN","number":"0001","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-22 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[08-12-2014 02:59:52] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 02:59:52] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:59:52] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 02:59:52] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 02:59:52] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 02:59:53] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:59:54] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015grwGMtcpDdyA9DGn31UY5zRdhXhVgWMm9iDGNHYJdwo","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 02:59:54] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 02:59:54] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 02:59:54] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:59:54] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015grwGMtcpDdyA9DGn31UY5zRdhXhVgWMm9iDGNHYJdwo
+[08-12-2014 02:59:54] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141807959230832
+[08-12-2014 02:59:54] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"example@example.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 02:59:55] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:59:56] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-BUEW-R9BN-N7QC-YJXW","number":"0002","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"example@example.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-22 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[08-12-2014 02:59:56] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices/INV2-BUEW-R9BN-N7QC-YJXW/send
+[08-12-2014 02:59:56] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 02:59:56] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 02:59:56] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015grwGMtcpDdyA9DGn31UY5zRdhXhVgWMm9iDGNHYJdwo
+[08-12-2014 02:59:56] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141807959230832
+[08-12-2014 02:59:56] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-12-2014 02:59:57] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 02:59:58] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-12-2014 03:02:32] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:02:32] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:02:32] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:02:32] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:02:32] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:02:33] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:02:34] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A0158Gf3WymddtyzrfhG1in09YxmppyVAgkkY3XlasP7qME","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:02:34] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:02:34] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:02:34] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:02:34] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A0158Gf3WymddtyzrfhG1in09YxmppyVAgkkY3XlasP7qME
+[08-12-2014 03:02:34] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 148014180797523139
+[08-12-2014 03:02:34] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 03:02:35] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:02:36] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-G3CE-U8PG-BZ9B-A9YG","number":"0003","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"m.ikeybec.k@gmail.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-22 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[08-12-2014 03:02:49] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:02:49] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:02:49] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:02:49] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:02:49] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:02:50] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:02:51] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015kOdvvyP5KXhP.49R0lt1KNLLu1lCmB5iajA8rB3YnAQ","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:02:51] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:02:51] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:02:51] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:02:51] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015kOdvvyP5KXhP.49R0lt1KNLLu1lCmB5iajA8rB3YnAQ
+[08-12-2014 03:02:51] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 148014180797696358
+[08-12-2014 03:02:51] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 03:02:52] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:02:53] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-GNUA-CAYR-FGPQ-89ZV","number":"0004","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"m.ikeybec.k@gmail.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-22 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[08-12-2014 03:02:53] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices/INV2-GNUA-CAYR-FGPQ-89ZV/send
+[08-12-2014 03:02:53] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:02:53] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:02:53] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015kOdvvyP5KXhP.49R0lt1KNLLu1lCmB5iajA8rB3YnAQ
+[08-12-2014 03:02:53] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 148014180797696358
+[08-12-2014 03:02:53] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-12-2014 03:02:54] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:02:55] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-12-2014 03:06:03] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:06:03] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:06:03] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:06:03] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:06:03] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:06:04] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:06:05] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015s51l-FCYdz.vNuGdUhFEaw9Waa6v-swC8KmQklHDt1U","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:06:05] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:06:05] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:06:05] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:06:05] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015s51l-FCYdz.vNuGdUhFEaw9Waa6v-swC8KmQklHDt1U
+[08-12-2014 03:06:05] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141807996347678
+[08-12-2014 03:06:05] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Medical Invoice 16 Jul, 2013 PST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 03:06:06] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:06:07] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-FZYA-F5SH-3STH-D3ZG","number":"0005","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"m.ikeybec.k@gmail.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-22 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Medical Invoice 16 Jul, 2013 PST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[08-12-2014 03:06:07] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices/INV2-FZYA-F5SH-3STH-D3ZG/send
+[08-12-2014 03:06:07] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:06:07] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:06:07] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015s51l-FCYdz.vNuGdUhFEaw9Waa6v-swC8KmQklHDt1U
+[08-12-2014 03:06:07] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141807996347678
+[08-12-2014 03:06:07] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-12-2014 03:06:07] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:06:09] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-12-2014 03:06:09] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices/INV2-FZYA-F5SH-3STH-D3ZG/remind
+[08-12-2014 03:06:09] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:06:09] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:06:09] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015s51l-FCYdz.vNuGdUhFEaw9Waa6v-swC8KmQklHDt1U
+[08-12-2014 03:06:09] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141807996347678
+[08-12-2014 03:06:09] PayPal\Core\PPHttpConnection: FINE: Payload : {"subject":"Past due","note":"Please pay soon","send_to_merchant":true}
+
+[08-12-2014 03:06:09] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:06:11] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-12-2014 03:18:13] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:18:13] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:18:13] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:18:13] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:18:13] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:18:14] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:18:15] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015r2U2TwlC3WZl1Yk.Q0O7PWRWPutGUyUSIvcaxbxhO7w","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:18:15] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:18:15] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:18:15] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:18:15] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015r2U2TwlC3WZl1Yk.Q0O7PWRWPutGUyUSIvcaxbxhO7w
+[08-12-2014 03:18:15] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808069341947
+[08-12-2014 03:18:15] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 03:18:16] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:18:18] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-5VTN-CER9-3LFV-4CBF","number":"0006","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"m.ikeybec.k@gmail.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-22 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[08-12-2014 03:18:18] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices/INV2-5VTN-CER9-3LFV-4CBF/send
+[08-12-2014 03:18:18] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:18:18] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:18:18] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015r2U2TwlC3WZl1Yk.Q0O7PWRWPutGUyUSIvcaxbxhO7w
+[08-12-2014 03:18:18] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808069341947
+[08-12-2014 03:18:18] PayPal\Core\PPHttpConnection: FINE: No Request Payload
+
+[08-12-2014 03:18:18] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:18:21] PayPal\Core\PPHttpConnection: FINE: No Response Body
+
+
+[08-12-2014 03:20:48] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:20:48] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:20:48] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:20:48] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:20:48] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:20:48] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:20:50] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015yVg1BCDpjujcM-0owjrmzFoFqFMImfKgAp8wEy5B.3I","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:20:50] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:20:50] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:20:50] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:20:50] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015yVg1BCDpjujcM-0owjrmzFoFqFMImfKgAp8wEy5B.3I
+[08-12-2014 03:20:50] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808084718854
+[08-12-2014 03:20:50] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Bank account no: 06 0996 0911989 00 \n\n <b>Not registered for GST</b>","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 03:20:50] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:20:52] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-JTV2-SKNB-PHSZ-S495","number":"0007","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","first_name":"Dennis","last_name":"Doctor","business_name":"Medical Professionals, LLC","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"m.ikeybec.k@gmail.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-22 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Bank account no: 06 0996 0911989 00 \n\n <b>Not registered for GST</b>","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[08-12-2014 03:24:39] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:24:39] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:24:39] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:24:39] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:24:39] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:24:40] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:24:41] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015EcDeOfhTleNO5eYGFhhIP5EV2deFH1FTCzzLPgnBFQc","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:24:41] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:24:41] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:24:41] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:24:41] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015EcDeOfhTleNO5eYGFhhIP5EV2deFH1FTCzzLPgnBFQc
+[08-12-2014 03:24:41] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808107920450
+[08-12-2014 03:24:41] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"USD","value":"5.00"}}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_45"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 03:24:41] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:24:43] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-KEME-BYEF-2WQK-A3DM","number":"0008","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"001","national_number":"5032141716"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5032141716"}}},"billing_info":[{"email":"m.ikeybec.k@gmail.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"USD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_45","due_date":"2015-01-22 PST"},"discount":{"amount":{"currency":"USD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","total_amount":{"currency":"USD","value":"500.00"}}
+
+
+[08-12-2014 03:30:20] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:30:20] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:30:20] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:30:20] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:30:20] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:30:21] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:30:22] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015EX24Bo3tfqO8tt0KwENT9ADftR2ZsN8DxpSaNqi0LZA","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:30:22] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:30:22] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:30:22] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:30:23] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015EX24Bo3tfqO8tt0KwENT9ADftR2ZsN8DxpSaNqi0LZA
+[08-12-2014 03:30:23] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808142024456
+[08-12-2014 03:30:23] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"+64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave\nMornington","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"}}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"shipping_info":[]}
+
+[08-12-2014 03:30:23] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:30:25] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"83d04634e93c7","details":[{"field":"shipping_info","issue":"Can not deserialize instance of com.paypal.invoicing.entity.ShippingInfo out of START_ARRAY token at line:1, column:515"}]}
+
+
+[08-12-2014 03:32:29] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:32:29] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:32:29] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:32:29] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:32:29] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:32:30] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:32:31] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015FJuLEzsiDvDQ9yXDcFrmzOd7C5.fBSCIe2d-yY13UyM","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:32:31] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:32:31] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:32:31] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:32:31] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015FJuLEzsiDvDQ9yXDcFrmzOd7C5.fBSCIe2d-yY13UyM
+[08-12-2014 03:32:31] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808154918335
+[08-12-2014 03:32:31] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"+64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave\nMornington","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"}}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"shipping_info":[]}
+
+[08-12-2014 03:32:31] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:32:33] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"79b254d4cdf4f","details":[{"field":"shipping_info","issue":"Can not deserialize instance of com.paypal.invoicing.entity.ShippingInfo out of START_ARRAY token at line:1, column:515"}]}
+
+
+[08-12-2014 03:33:20] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:33:20] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:33:20] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:33:20] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:33:20] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:33:20] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:33:21] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015ou8GI71jwnqXwaiPmrkP7BQhikbSP0SfcNDXsA7X3DY","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:33:21] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:33:21] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:33:21] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:33:21] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015ou8GI71jwnqXwaiPmrkP7BQhikbSP0SfcNDXsA7X3DY
+[08-12-2014 03:33:21] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808160021781
+[08-12-2014 03:33:21] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"+64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave\nMornington","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"}}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 03:33:22] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:33:23] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"6bc2120b3d63b","details":[{"field":"merchant_info.phone.country_code","issue":"can have only digits."}]}
+
+
+[08-12-2014 03:33:42] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:33:42] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:33:42] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:33:42] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:33:42] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:33:42] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:33:44] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015mI-MukJ7Qvt1EnDXf79Jch2sjXpEnEhjkc4YyBZ2krE","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:33:44] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:33:44] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:33:44] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:33:44] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015mI-MukJ7Qvt1EnDXf79Jch2sjXpEnEhjkc4YyBZ2krE
+[08-12-2014 03:33:44] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808162253218
+[08-12-2014 03:33:44] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"0064","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave\nMornington","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"}}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 03:33:44] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:33:46] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"182179e13be34","details":[{"field":"merchant_info.phone.country_code","issue":"exceeds maximum allowed length."}]}
+
+
+[08-12-2014 03:33:59] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:33:59] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:33:59] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:33:59] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:33:59] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:34:00] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:34:00] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:34:00] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:34:00] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:34:00] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:34:00] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:34:00] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:34:01] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015t55Ib6D9Ng6OVz87E1eXwCPddO2WuxfE1prH-jm5Q6U","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:34:01] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:34:01] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:34:01] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:34:01] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015t55Ib6D9Ng6OVz87E1eXwCPddO2WuxfE1prH-jm5Q6U
+[08-12-2014 03:34:01] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808163933856
+[08-12-2014 03:34:01] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave\nMornington","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"}}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 03:34:01] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015wLVYEwzDTve.eco8qU9tvsMCJfiKJGY8zpywQOPSK8c","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:34:01] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:34:01] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:34:01] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:34:01] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015wLVYEwzDTve.eco8qU9tvsMCJfiKJGY8zpywQOPSK8c
+[08-12-2014 03:34:01] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808164052450
+[08-12-2014 03:34:02] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave\nMornington","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"}}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US"}}}
+
+[08-12-2014 03:34:02] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:34:02] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:34:03] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-4PHQ-5J6F-2DM8-RTVP","number":"0009","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave\nMornington","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ","phone":{"country_code":"64","national_number":"0275334448"}}},"billing_info":[{"email":"m.ikeybec.k@gmail.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"NZD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_15","due_date":"2014-12-23 PST"},"discount":{"amount":{"currency":"NZD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","total_amount":{"currency":"NZD","value":"500.00"}}
+
+
+[08-12-2014 03:34:03] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-AG7W-AYAU-VZK2-N538","number":"0010","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave\nMornington","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ","phone":{"country_code":"64","national_number":"0275334448"}}},"billing_info":[{"email":"m.ikeybec.k@gmail.com","address":{}}],"shipping_info":{"first_name":"Sally","last_name":"Patient","business_name":"Not applicable","phone":{"country_code":"001","national_number":"5039871234"},"address":{"line1":"1234 Main St.","city":"Portland","state":"OR","postal_code":"97217","country_code":"US","phone":{"country_code":"001","national_number":"5039871234"}}},"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"NZD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_15","due_date":"2014-12-23 PST"},"discount":{"amount":{"currency":"NZD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","total_amount":{"currency":"NZD","value":"500.00"}}
+
+
+[08-12-2014 03:40:02] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:40:02] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:40:02] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:40:02] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:40:02] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:40:04] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:40:05] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015iBAjqLLKA0.fdVsSV0NxPoNyuPggfZLbiTFZVJ0ynS8","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:40:05] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:40:05] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:40:05] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:40:05] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015iBAjqLLKA0.fdVsSV0NxPoNyuPggfZLbiTFZVJ0ynS8
+[08-12-2014 03:40:05] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808200233626
+[08-12-2014 03:40:05] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave\nMornington","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"}}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"}}
+
+[08-12-2014 03:40:06] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:40:07] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-DMW6-5VZY-RYF9-C5BD","number":"0011","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave\nMornington","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ","phone":{"country_code":"64","national_number":"0275334448"}}},"billing_info":[{"email":"m.ikeybec.k@gmail.com","address":{}}],"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"NZD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_15","due_date":"2014-12-23 PST"},"discount":{"amount":{"currency":"NZD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","total_amount":{"currency":"NZD","value":"500.00"}}
+
+
+[08-12-2014 03:43:41] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:43:41] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:43:41] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:43:41] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:43:41] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:43:41] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:43:42] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015mNAubgJffQcAgZJc4OJoWR6BK18ve-S68HZWXf8p6Dg","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:43:42] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:43:42] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:43:42] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:43:42] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015mNAubgJffQcAgZJc4OJoWR6BK18ve-S68HZWXf8p6Dg
+[08-12-2014 03:43:42] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808222131866
+[08-12-2014 03:43:42] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave\nMornington","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"}}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 03:43:43] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:43:44] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-9XNV-MSBF-SW8V-BA6V","number":"0012","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave\nMornington","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ","phone":{"country_code":"64","national_number":"0275334448"}}},"billing_info":[{"email":"m.ikeybec.k@gmail.com","address":{}}],"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"NZD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_15","due_date":"2014-12-23 PST"},"discount":{"amount":{"currency":"NZD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","merchant_memo":"Created with PayPal API","total_amount":{"currency":"NZD","value":"500.00"}}
+
+
+[08-12-2014 03:49:00] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 03:49:00] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:49:00] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 03:49:00] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 03:49:00] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 03:49:00] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:49:02] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015P3.eoezGDcHnAHGJJhnNbGCBXG3GA3ap1c5vsq6QG00","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 03:49:02] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 03:49:02] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 03:49:02] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 03:49:02] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015P3.eoezGDcHnAHGJJhnNbGCBXG3GA3ap1c5vsq6QG00
+[08-12-2014 03:49:02] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808254035505
+[08-12-2014 03:49:02] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"}}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 03:49:02] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 03:49:03] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-XCUM-PKCJ-H5UP-GF22","number":"0013","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ","phone":{"country_code":"64","national_number":"0275334448"}}},"billing_info":[{"email":"m.ikeybec.k@gmail.com","address":{}}],"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"NZD","value":"5.00"}}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_15","due_date":"2014-12-23 PST"},"discount":{"amount":{"currency":"NZD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","merchant_memo":"Created with PayPal API","total_amount":{"currency":"NZD","value":"500.00"}}
+
+
+[08-12-2014 04:12:56] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:12:56] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:12:56] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:12:56] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:12:56] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:12:57] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:12:59] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A0154C7SBaZaQ9byLv8OChuKpKoxQ7FnciVVgrVOf7j-Sdc","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:12:59] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:12:59] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:12:59] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:12:59] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A0154C7SBaZaQ9byLv8OChuKpKoxQ7FnciVVgrVOf7j-Sdc
+[08-12-2014 04:12:59] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808397655078
+[08-12-2014 04:12:59] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2014-12-09 z"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:13:00] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:13:01] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"fbbec5a57ce1d","details":[{"field":"items.date","issue":"only date field allowed with (yyyy-MM-dd z) format. (was 2014-12-09 z) at line:1, column:411"}]}
+
+
+[08-12-2014 04:13:52] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:13:52] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:13:52] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:13:52] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:13:52] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:13:53] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:13:54] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015BUMJdwWZDqw5FwM6lKEBBe9GhKvuLL2dSuzdXgkA-DA","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:13:54] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:13:54] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:13:54] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:13:54] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015BUMJdwWZDqw5FwM6lKEBBe9GhKvuLL2dSuzdXgkA-DA
+[08-12-2014 04:13:54] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808403211782
+[08-12-2014 04:13:54] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2014-12-09 16:39:57-08:00"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:13:55] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:13:56] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"9b40cb246c905","details":[{"field":"items.date","issue":"only date field allowed with (yyyy-MM-dd z) format. (was 2014-12-09 16:39:57-08:00) at line:1, column:424"}]}
+
+
+[08-12-2014 04:14:09] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:14:09] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:14:09] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:14:09] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:14:09] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:14:09] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:14:11] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015jkPR.SqRoS7vM8Fc7m7YiFDcgPHu42IdVHDLYVTk8a4","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:14:11] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:14:11] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:14:11] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:14:11] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015jkPR.SqRoS7vM8Fc7m7YiFDcgPHu42IdVHDLYVTk8a4
+[08-12-2014 04:14:11] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808404918165
+[08-12-2014 04:14:11] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2014-12-09 16:39:57"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:14:11] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:14:13] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"28a6cc986f11b","details":[{"field":"items.date","issue":"only date field allowed with (yyyy-MM-dd z) format. (was 2014-12-09 16:39:57) at line:1, column:418"}]}
+
+
+[08-12-2014 04:14:25] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:14:25] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:14:25] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:14:25] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:14:25] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:14:26] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:14:28] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015qLLqRUUEk0lPZ2qxgT7Yl461djaYE9Y1NrmT.ERRF3o","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:14:28] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:14:28] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:14:28] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:14:28] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015qLLqRUUEk0lPZ2qxgT7Yl461djaYE9Y1NrmT.ERRF3o
+[08-12-2014 04:14:28] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808406532076
+[08-12-2014 04:14:28] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2014-12-09 0"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:14:28] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:14:30] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"c891b60a64ce6","details":[{"field":"items.date","issue":"only date field allowed with (yyyy-MM-dd z) format. (was 2014-12-09 0) at line:1, column:411"}]}
+
+
+[08-12-2014 04:18:26] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:18:26] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:18:26] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:18:26] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:18:26] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:18:27] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:18:28] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015GHg4ZJ9S6WH-Go6r.iYSNXaSzWqYMqPP9Og8.wTBOwg","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:18:28] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:18:28] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:18:28] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:18:28] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015GHg4ZJ9S6WH-Go6r.iYSNXaSzWqYMqPP9Og8.wTBOwg
+[08-12-2014 04:18:28] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808430627791
+[08-12-2014 04:18:28] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2014-12-08T16:18:26-0800"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:18:29] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:18:30] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"701608a0ab996","details":[{"field":"items.date","issue":"only date field allowed with (yyyy-MM-dd z) format. (was 2014-12-08T16:18:26-0800) at line:1, column:423"}]}
+
+
+[08-12-2014 04:19:54] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:19:54] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:19:54] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:19:54] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:19:54] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:19:55] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:19:56] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015i5k40t9JGGhwLhtrlPSkl9ld1IREl9EfZWCKtTr79pg","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:19:56] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:19:56] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:19:56] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:19:56] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015i5k40t9JGGhwLhtrlPSkl9ld1IREl9EfZWCKtTr79pg
+[08-12-2014 04:19:56] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808439453605
+[08-12-2014 04:19:56] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"1996-12-19 16:39:57-08:00"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:19:56] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:19:58] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"c55799ae92de1","details":[{"field":"items.date","issue":"only date field allowed with (yyyy-MM-dd z) format. (was 1996-12-19 16:39:57-08:00) at line:1, column:424"}]}
+
+
+[08-12-2014 04:21:47] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:21:47] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:21:47] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:21:47] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:21:47] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:21:47] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:21:49] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015ZgsmCCxhUfDYpMclCNqoPyStXCF3JrKaoQztaZZUeL4","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:21:49] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:21:49] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:21:49] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:21:49] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015ZgsmCCxhUfDYpMclCNqoPyStXCF3JrKaoQztaZZUeL4
+[08-12-2014 04:21:49] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808450621635
+[08-12-2014 04:21:49] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2012-04-30T00:05:47Z"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:21:49] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:21:51] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"d658ade8ff6ce","details":[{"field":"items.date","issue":"only date field allowed with (yyyy-MM-dd z) format. (was 2012-04-30T00:05:47Z) at line:1, column:419"}]}
+
+
+[08-12-2014 04:23:49] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:23:49] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:23:49] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:23:49] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:23:49] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:23:50] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:23:51] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A0155X5STHf-SLUjwdUFVA3XYStZSIc.tu-SnRSyppB77wU","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:23:51] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:23:51] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:23:51] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:23:51] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A0155X5STHf-SLUjwdUFVA3XYStZSIc.tu-SnRSyppB77wU
+[08-12-2014 04:23:51] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808462937251
+[08-12-2014 04:23:51] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"Fri Mar 28 18:30:30 1100 2008"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:23:52] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:23:53] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"ef7d9ccfdd948","details":[{"field":"items.date","issue":"only date field allowed with (yyyy-MM-dd z) format. (was Fri Mar 28 18:30:30 1100 2008) at line:1, column:428"}]}
+
+
+[08-12-2014 04:25:07] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:25:07] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:25:07] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:25:07] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:25:07] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:25:08] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:25:09] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015i1Lxuq5IdNVIYw5FEgxpAS7ZE0Kl4qKoTkyNNcG4IiM","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:25:09] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:25:09] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:25:09] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:25:09] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015i1Lxuq5IdNVIYw5FEgxpAS7ZE0Kl4qKoTkyNNcG4IiM
+[08-12-2014 04:25:09] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808470727979
+[08-12-2014 04:25:09] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2014-12-09Z"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:25:10] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:25:11] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"ee253ceac9b3c","details":[{"field":"items.date","issue":"only date field allowed with (yyyy-MM-dd z) format. (was 2014-12-09Z) at line:1, column:410"}]}
+
+
+[08-12-2014 04:25:34] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:25:34] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:25:34] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:25:34] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:25:34] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:25:34] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:25:36] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015xjSjEO9HsrYKLJ.I0oH3wL4lGRftfSj5pDdarplIrMo","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:25:36] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:25:36] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:25:36] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:25:36] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015xjSjEO9HsrYKLJ.I0oH3wL4lGRftfSj5pDdarplIrMo
+[08-12-2014 04:25:36] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808473422024
+[08-12-2014 04:25:36] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2014-12-09 z"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:25:36] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:25:37] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"75a78ea3c3da3","details":[{"field":"items.date","issue":"only date field allowed with (yyyy-MM-dd z) format. (was 2014-12-09 z) at line:1, column:411"}]}
+
+
+[08-12-2014 04:26:55] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:26:55] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:26:55] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:26:55] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:26:55] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:26:55] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:26:57] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015SWVln.3qIhiMCdxfFSQT47Mk.4faUOjCJ9lbGC.iDIY","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:26:57] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:26:57] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:26:57] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:26:57] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015SWVln.3qIhiMCdxfFSQT47Mk.4faUOjCJ9lbGC.iDIY
+[08-12-2014 04:26:57] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808481538738
+[08-12-2014 04:26:57] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2006-08-24T05:38:48Z"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:26:57] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:26:59] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"7400bfde2f87b","details":[{"field":"items.date","issue":"only date field allowed with (yyyy-MM-dd z) format. (was 2006-08-24T05:38:48Z) at line:1, column:419"}]}
+
+
+[08-12-2014 04:28:25] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:28:25] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:28:25] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:28:25] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:28:25] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:28:25] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:28:27] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015DSYQydBiieK3MhgazR0-LntH9VvU.MC.Z42JGBQelDk","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:28:27] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:28:27] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:28:27] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:28:27] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015DSYQydBiieK3MhgazR0-LntH9VvU.MC.Z42JGBQelDk
+[08-12-2014 04:28:27] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808490535517
+[08-12-2014 04:28:27] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2006-08-24"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:28:27] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:28:29] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"c14a68ae1e48b","details":[{"field":"items.date","issue":"only date field allowed with (yyyy-MM-dd z) format. (was 2006-08-24) at line:1, column:409"}]}
+
+
+[08-12-2014 04:31:06] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:31:06] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:31:06] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:31:06] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:31:06] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:31:07] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:31:08] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015oT5p26j7EACT4KO.-CSCS2GJ49TspW.oWMUGhRRFjTs","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:31:08] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:31:08] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:31:08] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:31:08] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015oT5p26j7EACT4KO.-CSCS2GJ49TspW.oWMUGhRRFjTs
+[08-12-2014 04:31:08] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808506622271
+[08-12-2014 04:31:08] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2011-08-01T15:30:00+00:00"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:31:09] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:31:10] PayPal\Core\PPHttpConnection: FINE: Response : {"name":"VALIDATION_ERROR","message":"Invalid request - see details.","debug_id":"f307ddc9715ff","details":[{"field":"items.date","issue":"only date field allowed with (yyyy-MM-dd z) format. (was 2011-08-01T15:30:00+00:00) at line:1, column:424"}]}
+
+
+[08-12-2014 04:37:01] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:37:01] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:37:01] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:37:01] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:37:01] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:37:01] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:37:03] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015gbdFMIA3IuxOTAnR9zC-bTaaNWFTEzYOPYsl1ktnsTw","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:37:03] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:37:03] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:37:03] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:37:03] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015gbdFMIA3IuxOTAnR9zC-bTaaNWFTEzYOPYsl1ktnsTw
+[08-12-2014 04:37:03] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 1480141808542162868
+[08-12-2014 04:37:03] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2014-12-16 PST"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:37:03] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:37:05] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-D9FK-FNLS-XUE5-5MHY","number":"0014","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ","phone":{"country_code":"64","national_number":"0275334448"}}},"billing_info":[{"email":"m.ikeybec.k@gmail.com","address":{}}],"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2014-12-16 PST"}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_15","due_date":"2014-12-23 PST"},"discount":{"amount":{"currency":"NZD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","merchant_memo":"Created with PayPal API","total_amount":{"currency":"NZD","value":"500.00"}}
+
+
+[08-12-2014 04:38:22] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[08-12-2014 04:38:22] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:38:22] PayPal\Core\PPHttpConnection: FINE: Authorization: Basic QWRWVnhCQU0wdzl0R2dEZ2w5NllMQmVkLXozNnZfcm02MktzbGp6TE00YzlDWk5yRlpLV1lZb0dDcjAxOkVGempJQkFDMjlCMGI5eHJjdjJ0LW1Fb2VoYk9LLTB6R3RkTDdBRUtrWUJKRmhaLXNCXzgzTVJFR3hyZQ==
+[08-12-2014 04:38:22] PayPal\Core\PPHttpConnection: FINE: Accept: */*
+[08-12-2014 04:38:22] PayPal\Core\PPHttpConnection: FINE: Payload : grant_type=client_credentials
+
+[08-12-2014 04:38:23] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:38:25] PayPal\Core\PPHttpConnection: FINE: Response : {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015g7iTr9zluFUPWqtdxygsVeNLNrRXYtccPpxKIF7b6Lc","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+
+
+[08-12-2014 04:38:25] PayPal\Core\PPHttpConnection: INFO: POST https://api.sandbox.paypal.com/v1/invoicing/invoices
+[08-12-2014 04:38:25] PayPal\Core\PPHttpConnection: FINE: Content-Type: application/json
+[08-12-2014 04:38:25] PayPal\Core\PPHttpConnection: FINE: User-Agent: PayPalSDK/PayPal-PHP-SDK 0.15.1 (lang=PHP;v=5.6.3;bit=32;os=Windows_NT_6.1;machine=i586;openssl=1.0.1i;curl=7.39.0)
+[08-12-2014 04:38:25] PayPal\Core\PPHttpConnection: FINE: Authorization: Bearer A015g7iTr9zluFUPWqtdxygsVeNLNrRXYtccPpxKIF7b6Lc
+[08-12-2014 04:38:25] PayPal\Core\PPHttpConnection: FINE: PayPal-Request-Id: 148014180855021049
+[08-12-2014 04:38:25] PayPal\Core\PPHttpConnection: FINE: Payload : {"merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ"}},"billing_info":[{"email":"m.ikeybec.k@gmail.com"}],"items":[{"name":"Sutures","quantity":100,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2014-12-16 NZST"}],"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","payment_term":{"term_type":"NET_15"},"merchant_memo":"Created with PayPal API"}
+
+[08-12-2014 04:38:25] PayPal\Core\PPHttpConnection: INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[08-12-2014 04:38:26] PayPal\Core\PPHttpConnection: FINE: Response : {"id":"INV2-3LZ8-P6RE-N4AP-ZXWM","number":"0015","status":"DRAFT","merchant_info":{"email":"mike@mikeybeck.com","business_name":"Mike Beck","phone":{"country_code":"64","national_number":"0275334448"},"address":{"line1":"66 Hawthorn Ave","city":"Dunedin","state":"Otago","postal_code":"9011","country_code":"NZ","phone":{"country_code":"64","national_number":"0275334448"}}},"billing_info":[{"email":"m.ikeybec.k@gmail.com","address":{}}],"items":[{"name":"Sutures","quantity":100.0,"unit_price":{"currency":"NZD","value":"5.00"},"date":"2014-12-15 PST"}],"invoice_date":"2014-12-08 PST","payment_term":{"term_type":"NET_15","due_date":"2014-12-23 PST"},"discount":{"amount":{"currency":"NZD","value":"0.00"}},"tax_calculated_after_discount":false,"tax_inclusive":false,"note":"Bank account no: 06 0996 0911989 00 \n\n Not registered for GST","merchant_memo":"Created with PayPal API","total_amount":{"currency":"NZD","value":"500.00"}}
+
+
